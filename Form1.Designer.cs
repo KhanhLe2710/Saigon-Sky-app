@@ -36,6 +36,12 @@
             comboBox1 = new ComboBox();
             domainUpDown1 = new DomainUpDown();
             dataGridView2 = new DataGridView();
+            button3 = new Button();
+            checkBox2 = new CheckBox();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
@@ -110,11 +116,72 @@
             dataGridView2.Size = new Size(300, 188);
             dataGridView2.TabIndex = 7;
             // 
+            // button3
+            // 
+            button3.Location = new Point(353, 23);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 8;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(536, 57);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(101, 24);
+            checkBox2.TabIndex = 9;
+            checkBox2.Text = "checkBox2";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(359, 93);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 10;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(613, 27);
+            button5.Name = "button5";
+            button5.Size = new Size(94, 29);
+            button5.TabIndex = 11;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(478, 11);
+            button6.Name = "button6";
+            button6.Size = new Size(94, 29);
+            button6.TabIndex = 12;
+            button6.Text = "button6";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(339, 68);
+            button7.Name = "button7";
+            button7.Size = new Size(94, 29);
+            button7.TabIndex = 13;
+            button7.Text = "button7";
+            button7.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(checkBox2);
+            Controls.Add(button3);
             Controls.Add(dataGridView2);
             Controls.Add(domainUpDown1);
             Controls.Add(comboBox1);
@@ -141,5 +208,11 @@
         private ComboBox comboBox1;
         private DomainUpDown domainUpDown1;
         private DataGridView dataGridView2;
+        private Button button3;
+        private CheckBox checkBox2;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
     }
 }
