@@ -45,6 +45,7 @@
             button8 = new Button();
             button9 = new Button();
             comboBox2 = new ComboBox();
+            comboBox3 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
@@ -200,11 +201,20 @@
             comboBox2.Size = new Size(151, 28);
             comboBox2.TabIndex = 16;
             // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(346, 312);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(151, 28);
+            comboBox3.TabIndex = 17;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox3);
             Controls.Add(comboBox2);
             Controls.Add(button9);
             Controls.Add(button8);
@@ -249,5 +259,6 @@
         private Button button8;
         private Button button9;
         private ComboBox comboBox2;
+        private ComboBox comboBox3;
     }
 }
