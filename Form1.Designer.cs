@@ -42,6 +42,11 @@
             button5 = new Button();
             button6 = new Button();
             button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            comboBox2 = new ComboBox();
+            comboBox3 = new ComboBox();
+            button10 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
@@ -171,11 +176,59 @@
             button7.Text = "button7";
             button7.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            button8.Location = new Point(450, 33);
+            button8.Name = "button8";
+            button8.Size = new Size(94, 29);
+            button8.TabIndex = 14;
+            button8.Text = "button8";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(572, 68);
+            button9.Name = "button9";
+            button9.Size = new Size(94, 29);
+            button9.TabIndex = 15;
+            button9.Text = "button9";
+            button9.UseVisualStyleBackColor = true;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(523, 414);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(151, 28);
+            comboBox2.TabIndex = 16;
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(346, 312);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(151, 28);
+            comboBox3.TabIndex = 17;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(501, 79);
+            button10.Name = "button10";
+            button10.Size = new Size(94, 29);
+            button10.TabIndex = 18;
+            button10.Text = "button10";
+            button10.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button10);
+            Controls.Add(comboBox3);
+            Controls.Add(comboBox2);
+            Controls.Add(button9);
+            Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -214,5 +267,10 @@
         private Button button5;
         private Button button6;
         private Button button7;
+        private Button button8;
+        private Button button9;
+        private ComboBox comboBox2;
+        private ComboBox comboBox3;
+        private Button button10;
     }
 }
