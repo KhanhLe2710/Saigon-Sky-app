@@ -35,7 +35,9 @@
             dataGridView1 = new DataGridView();
             comboBox1 = new ComboBox();
             domainUpDown1 = new DomainUpDown();
+            dataGridView2 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -99,11 +101,21 @@
             domainUpDown1.TabIndex = 6;
             domainUpDown1.Text = "domainUpDown1";
             // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(375, 106);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(300, 188);
+            dataGridView2.TabIndex = 7;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dataGridView2);
             Controls.Add(domainUpDown1);
             Controls.Add(comboBox1);
             Controls.Add(dataGridView1);
@@ -114,6 +126,7 @@
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -127,5 +140,6 @@
         private DataGridView dataGridView1;
         private ComboBox comboBox1;
         private DomainUpDown domainUpDown1;
+        private DataGridView dataGridView2;
     }
 }
