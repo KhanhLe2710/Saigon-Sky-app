@@ -34,6 +34,7 @@
             checkedListBox1 = new CheckedListBox();
             dataGridView1 = new DataGridView();
             comboBox1 = new ComboBox();
+            domainUpDown1 = new DomainUpDown();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -90,11 +91,20 @@
             comboBox1.Size = new Size(151, 28);
             comboBox1.TabIndex = 5;
             // 
+            // domainUpDown1
+            // 
+            domainUpDown1.Location = new Point(354, 289);
+            domainUpDown1.Name = "domainUpDown1";
+            domainUpDown1.Size = new Size(150, 27);
+            domainUpDown1.TabIndex = 6;
+            domainUpDown1.Text = "domainUpDown1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(domainUpDown1);
             Controls.Add(comboBox1);
             Controls.Add(dataGridView1);
             Controls.Add(checkedListBox1);
@@ -116,5 +126,6 @@
         private CheckedListBox checkedListBox1;
         private DataGridView dataGridView1;
         private ComboBox comboBox1;
+        private DomainUpDown domainUpDown1;
     }
 }
