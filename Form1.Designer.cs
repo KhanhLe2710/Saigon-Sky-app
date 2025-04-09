@@ -33,6 +33,7 @@
             checkBox1 = new CheckBox();
             checkedListBox1 = new CheckedListBox();
             dataGridView1 = new DataGridView();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -81,11 +82,20 @@
             dataGridView1.Size = new Size(300, 188);
             dataGridView1.TabIndex = 4;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(338, 146);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 28);
+            comboBox1.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
             Controls.Add(dataGridView1);
             Controls.Add(checkedListBox1);
             Controls.Add(checkBox1);
@@ -105,5 +115,6 @@
         private CheckBox checkBox1;
         private CheckedListBox checkedListBox1;
         private DataGridView dataGridView1;
+        private ComboBox comboBox1;
     }
 }
